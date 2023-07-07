@@ -4,25 +4,37 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(0, 47, 255);
-    display: flex;
-    flex-direction: column;
-    color: white;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: 'lato', 'sans-serif';
+/* define full screan size */
+html,body {
+    padding:0;
+    margin:0;
+    height: 100%;
+    width: 100%;
 }
 
-.up-box{
-    background-color: #03ff74;
-    border: 0;
+/* define fully the upper part screen */
+.row_up {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50%;
+}
+
+/* define fully he downner part screan */
+.row_down {
+    background-color: rgb(0, 44, 165);
+    width:100%;
+    height:50%;
+    float:left;
+    display: flex;
+}
+
+/* cube disigne */
+.showcase {
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 5px 10px;
     border-radius: 5px;
-    font-size: 12px;
-    margin-left: 10px;
-    padding: 5px 15px 5px 15px;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
