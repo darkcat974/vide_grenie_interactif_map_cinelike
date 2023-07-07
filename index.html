@@ -1,0 +1,114 @@
+<!-- place booker -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vide Grenie Booking</title>
+    <!-- calling the "style.css" to paly to the page-->
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <!-- adding a calender to choose the date -->
+    <div class="date-container">
+        <label>Pick à date</label>
+        <input type="date" id="date">
+    </div>
+
+    <!-- define all place states possible -->
+    <ul class="showcase">
+        <li>
+            <div class="place"></div>
+            <small>N/A</small>
+        </li>
+
+        <li>
+            <div class="place selected"></div>
+            <small>selected</small>
+        </li>
+
+        <li>
+            <div class="place occupied"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+
+    <!-- put in top to botom blocks -->
+    <div class="container">
+        <!-- a block to create a front screan, later to be changed -->
+        <div class="screen"></div>
+
+        <!-- a list of blocks, containning the places -->
+        <div class="row">
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+        </div>
+
+        <div class="row">
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+        </div>
+
+        <div class="row">
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+            <div class="place occupied"></div>
+        </div>
+
+        <div class="row">
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+            <div class="place"></div>
+        </div>
+    </div>
+
+    <!-- info on how much you take, how much it will cost (in that order) -->
+    <p class="text">
+        you have selected <span id="count">0</span> places for a price of <span id="total">0</span>€
+    </p>
+
+    <!-- calling the js script to interact and modify the places, and more...-->
+    <script src="script.js"></script>
+</body>
+</html>

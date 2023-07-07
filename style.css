@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+/* modifys the body of the site */
+body {
+    background-color: #242333;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'lato', 'sans-serif';
+}
+
+
+/* modifys the block place in the container row */
+.place {
+    background-color: #444451;
+    height: 12px;
+    width: 15px;
+    margin: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*  put side to side all the blocks row*/
+.row {
+    display: flex;
+}
+
+/* modify the date box */
+.date-container input{
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 5px 15px 5px 15px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+/* add a color to selected places */
+.place.selected {
+    background-color: #00ff0d;
+}
+
+/* add a color to occupied places */
+.place.occupied {
+    background-color: #ff0000;
+}
+
+/* give space between the 2 first places and the rest of them (colone only)*/
+.place:nth-of-type(2) {
+    margin-right: 18px;
+}
+
+/* give space between the 2 last places and the rest of them (colone only)*/
+.place:nth-last-of-type(2) {
+    margin-left: 18px;
+}
+
+/* change the mouse in case it goes on a none occupied place */
+.place:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* maintain the mouse in case it goes on an exemple place */
+.showcase .place:not(.occupied):hover {
+    cursor: default;
+    transform: scale(1);
+}
+
+/* draw a box around the exemple places states */
+.showcase {
+    background-color: rgb(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #777;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* spacing all in balise li to the right*/
+.showcase li {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+
+/* spacing all in balise li small to the left*/
+.showcase li small {
+    margin-left: 10px;
+}
+
+/* create the scean */
+.screen {
+    background-color: #fff;
+    height: 70px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-45deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.75);
+}
+
+/* adding perspecting to the screan regard to the bottom text */
+/* spacing bottom text */
+.container {
+    perspective: 1000px;
+    margin-bottom: 30px;
+}
