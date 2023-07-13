@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /* define full screan size */
@@ -10,6 +12,8 @@ html,body {
     margin:0;
     height: 100%;
     width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* changing main title */

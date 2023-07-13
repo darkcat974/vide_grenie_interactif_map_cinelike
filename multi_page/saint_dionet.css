@@ -10,3 +10,54 @@ body {
     background-attachment: fixed;
     background-size: 100% 100%;
   }
+
+  .menu {
+    background-color: rgb(24, 218, 201);
+    width: 200px;
+    height: 100px;
+    border-radius: 5%;
+}
+
+.button {
+        background-color: #7a7a7a;
+        height: 15px;
+        width: 50px;
+        margin: 3px;
+        border-radius: 50%;
+}
+
+small {
+    margin: 100%;
+    width: 100%;
+}
+
+.place {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.place small {
+    margin: auto;
+}
+
+.home {
+    width: 15px;
+    background-color: black;
+}
+
+.home:hover {
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.occupied {
+    width: 50px;
+    background-color: red;
+    margin-left: -15%;
+}
+
+.selected {
+    width: 50px;
+    background-color: rgb(0, 255, 0);
+    margin-left: -15%;
+}
