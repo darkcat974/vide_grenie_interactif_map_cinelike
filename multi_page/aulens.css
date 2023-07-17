@@ -16,7 +16,7 @@ body {
     width: 200px;
     height: 100px;
     border-radius: 5%;
-    position: absolute;
+    position: relative;
 }
 
 .button {
@@ -32,12 +32,12 @@ small {
     width: 100%;
 }
 
-.place {
+.showcase {
     background-color: rgb(255, 255, 255);
     display: flex;
 }
 
-.place small {
+.showcase small {
     margin: auto;
 }
 
@@ -54,7 +54,7 @@ small {
 .occupied {
     width: 50px;
     background-color: red;
-    margin-left: -15%;
+    margin-left: -5%;
 }
 
 .selected {
@@ -63,8 +63,47 @@ small {
     margin-left: -15%;
 }
 
+.parc {
+    position: relative;
+    height: 25vh;
+    width: 120vh;
+    top: 55vh;
+    left: 36vh;
+    transform: rotate(-7deg);
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.rue {
+    position: relative;
+    height: 110vh;
+    width: 10vh;
+    top: -40vh;
+    left: 170vh;
+    transform: rotate(14deg);
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.place {
+    background-color: #444451;
+    height: 1.2vh;
+    width: 1.5vh;
+    margin: 3.vh;
+    border-top-left-radius: 1.0vh;
+    border-top-right-radius: 1.0vh;
+}
+/*
 .test { 
-    width: 255px;
-    height: 255px;
+    width: 255vh;
+    height: 255vh;
+    background-color: black;
+    position: relative;
+}
+
+.test.red {
     background-color: red;
 }
+
+.test.green {
+    background-color: green;
+}
+*/
