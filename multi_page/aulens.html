@@ -1,72 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vide Grenier</title>
-        <link rel="stylesheet" href="aulens.css"/>
-        <link rel="stylesheet" href="aulens_pos.css"/>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vide Grenier</title>
+    <link rel="stylesheet" href="aulens.css"/>
+    <link rel="stylesheet" href="aulens_pos.css"/>
 </head>
 <body>
-    <div class="menu" id="menu">
-        <a href="index.html">
-                
-            <div class="button home">
-                <small>menu</small>
-            </div>
-        </a>
-        <div class="showcase">
-            <div class="button"></div>
-            <small>libre</small>
-            <div class="button selected"></div>
-            <small>selection</small>
-            <div class="button occupied"></div>
-            <small>occupée</small>
+<div class="menu" id="menu">
+    <a href="index.html">           
+        <div class="button home">
+            <small>menu</small>
         </div>
-        <a href="saint_donet.html">
-            <div class="button home">
-                <small>Côté_église</small>
-            </div>
-        </a>
-        <a href="petit_pone.html">
-            <div class="button home">
-                <small>Côté_cheval</small>
-            </div>
-        </a>
-        <a href="rond_donet.html">
-            <div class="button home">
-                <small>Côté_rond_point</small>
-            </div>
-        </a>
+    </a>
+    <div class="showcase">
+        <div class="button"></div>
+        <small>libre</small>
+        <div class="button selected"></div>
+        <small>selection</small>
+        <div class="button occupied"></div>
+        <small>occupée</small>
     </div>
-    <!-- <div class="parc"></div>
-    <div class="rue"></div> -->
-    <div class="container">
-        <div class="row">
-            <div class="place occupied un"></div>
-            <div class="place selected deux"></div>
-            <div class="place trois"></div>
-            <div class="place quatre"></div>
-            <div class="place cinq"></div>
-            <div class="place six"></div>
-            <div class="place sept"></div>
-            <div class="place huit"></div>
-            <div class="place neuf"></div>
-            <div class="place dix"></div>
+    <a href="saint_donet.html">
+        <div class="button home">
+            <small>Côté_église</small>
         </div>
-        <div class="row">
-            <div class="place onze"></div>
-            <div class="place douze"></div>
-            <div class="place treize"></div>
-            <div class="place quatorze"></div>
-            <div class="place quinze"></div>
-            <div class="place seize"></div>
-            <div class="place dix-sept"></div>
-            <div class="place dix-huit"></div>
-            <div class="place dix-neuf"></div>
-            <div class="place vingt"></div>
+    </a>
+    <a href="petit_pone.html">
+        <div class="button home">
+            <small>Côté_cheval</small>
         </div>
+    </a>
+    <a href="rond_donet.html">
+        <div class="button home">
+            <small>Côté_rond_point</small>
+        </div>
+    </a>
+</div>
+<!-- <div class="parc"></div>
+<div class="rue"></div> -->
+<div class="container">
+    <div class="row">
+        <div date-place-id="1" class="place un"><span></span></div>
+        <div date-place-id="2" class="place deux"><span></span></div>
+        <div date-place-id="3" class="place trois"><span></span></div>
+        <div date-place-id="4" class="place quatre"><span></span></div>
+        <div date-place-id="5" class="place cinq"><span></span></div>
+        <div date-place-id="6" class="place six"><span></span></div>
+        <div date-place-id="588" class="place sept"><span></span></div>
+        <div date-place-id="8" class="place huit"><span></span></div>
+        <div date-place-id="9" class="place neuf"><span></span></div>
+        <div date-place-id="10" class="place dix"><span></span></div>
     </div>
-    <script src="script.js"></script>
+    <div class="row">
+        <div date-place-id="11" class="place onze"><span></span></div>
+        <div date-place-id="12" class="place douze"><span></span></div>
+        <div date-place-id="13" class="place treize"><span></span></div>
+        <div date-place-id="14" class="place quatorze"><span></span></div>
+        <div date-place-id="15" class="place quinze"><span></span></div>
+        <div date-place-id="16" class="place seize"><span></span></div>
+        <div date-place-id="17" class="place dix-sept"><span></span></div>
+        <div date-place-id="18" class="place dix-huit"><span></span></div>
+        <div date-place-id="19" class="place dix-neuf"><span></span></div>
+        <div date-place-id="20" class="place vingt"><span></span></div>
+    </div>
+</div>
+<div class="adress">
+    <form>
+        <div class="text">place selected :</div>
+        <br>
+        <div class="place-number" id="placeNumber" style="margin: 5%">nothing selected</div>
+        <label>Prenom : </label>
+        <input type="text">
+        <br>
+        <label>Nom :</label>
+        <input type="text">
+        <br>
+        <label>Adress :</label>
+        <input type="text">
+        <br>
+        <label>Telephone :</label>
+        <input type="tel">
+        <br>
+        <label>Code Postal :</label>
+        <input type="number"><br>
+        <input type="radio" id="Vert_Saint_Denis" name="ville" value="Vert_Saint_Denis">
+        <label for="Vert_Saint_Denis">Vert_Saint_Denis</label><br>
+        <input type="radio" id="Cesson" name="ville" value="Cesson">
+        <label for="Cesson">Cesson</label><br>
+        <input type="radio" id="Autre" name="ville" value="Autre" onclick="showTextBar()">
+        <label for="Autre">Autre</label>
+        <div id="autreVille" style="display: none;">
+            <label for="autreVilleInput">Ville :</label>
+            <input type="text" id="autreVilleInput">
+            <br>
+        </div>
+        <a href="https://framaforms.org/vide-grenier-de-vert-saint-denis-24-septembre-2023-1687503051">
+            <button type="button" style="position: fixed; top: 42.5%; left: 96%; scale: 1.25;">Valider</button>
+        </a>
+    </form>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

@@ -106,19 +106,26 @@ small {
     transform: scale(1.2);
 }
 
-/*
-.test { 
-    width: 255vh;
-    height: 255vh;
-    background-color: black;
+.place span {
     position: fixed;
+    margin: 0.5vh;
+    pointer-events: none; /* Add this line to disable pointer events on the number spans */
+    color: #7a7a7a;
 }
 
-.test.red {
-    background-color: red;
+.adress {
+    position: fixed;
+    background-color: aqua;
+    width: 22vh;
+    height: 45vh;
+    top: 1vh;
+    left: 190vh;
+    border-radius: 1vh;
 }
 
-.test.green {
-    background-color: green;
+.text {
+    position: fixed;
+    margin-left: 1vh;
 }
-*/
+
+
