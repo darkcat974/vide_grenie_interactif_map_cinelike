@@ -3,12 +3,13 @@
 const container = document.querySelector('.container');
 const places = document.querySelectorAll('.row .place:not(.occupied)');
 const autreRadio = document.getElementById('Autre');
-const otherInput = document.getElementById('otherInput');
+const autreVilleDiv = document.getElementById('autreVille');
+const autreVilleInput = document.getElementById('autreVilleInput');
 
 // fixing the price
 let PlacePrice = 10;
 
-// Function to update the content of the "adress" box with the selected place numbers
+// Function to update the content of the "address" box with the selected place numbers
 function UpdateSelectedPlacesBox(placeIndex) {
     const placeNumberDiv = document.getElementById('placeNumber');
 
@@ -42,7 +43,7 @@ container.addEventListener('click', (e) => {
             return [...places].indexOf(place);
         });
 
-        // Update the content of the "adress" box with the selected place numbers
+        // Update the content of the "address" box with the selected place numbers
         UpdateSelectedPlacesBox(placeIndex);
     }
 });
@@ -50,17 +51,15 @@ container.addEventListener('click', (e) => {
 // Event listener for clicking on the "Autre" radio button
 autreRadio.addEventListener('click', () => {
     if (autreRadio.checked) {
-        otherInput.style.display = 'block';
+        autreVilleDiv.style.display = 'block';
+        autreVilleInput.setAttribute('required', 'required');
     } else {
-        otherInput.style.display = 'none';
+        autreVilleDiv.style.display = 'none';
+        autreVilleInput.removeAttribute('required');
     }
 });
 
 function showTextBar() {
-    const autreVilleDiv = document.getElementById('autreVille');
-    const autreVilleInput = document.getElementById('autreVilleInput');
-    const autreRadio = document.getElementById('Autre');
-
     if (autreRadio.checked) {
         autreVilleDiv.style.display = 'block';
         autreVilleInput.setAttribute('required', 'required');
@@ -69,3 +68,41 @@ function showTextBar() {
         autreVilleInput.removeAttribute('required');
     }
 }
+
+// Function to send form data to the external form
+function sendFormDataToExternalForm() {
+    const prenom = document.getElementById('prenom').value;
+    const nom = document.getElementById('nom').value;
+    const adresse = document.getElementById('adresse').value;
+    const telephone = document.getElementById('telephone').value;
+    const codePostal = document.getElementById('codePostal').value;
+    const ville = document.querySelector('input[name="ville"]:checked').value;
+    const autreVille = autreVilleInput.value;
+
+    const formData = new FormData();
+    formData.append('entry.1', prenom);
+    formData.append('entry.2', nom);
+    formData.append('entry.3', adresse);
+    formData.append('entry.4', telephone);
+    formData.append('entry.5', codePostal);
+    formData.append('entry.6', ville === 'Autre' ? autreVille : ville);
+
+    fetch('https://framaforms.org/vide-grenier-de-vert-saint-denis-24-septembre-2023-1687503051', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => {
+        // Handle the response from the external form, if needed
+        console.log('Form data submitted successfully');
+    })
+    .catch(error => {
+        // Handle any errors that occurred during form submission
+        console.error('Error submitting form data:', error);
+    });
+}
+
+// Event listener for clicking on the "Valider" button
+const validerButton = document.querySelector('.adress button');
+validerButton.addEventListener('click', () => {
+    sendFormDataToExternalForm();
+});
