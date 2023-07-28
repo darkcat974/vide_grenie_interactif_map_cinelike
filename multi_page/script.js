@@ -14,7 +14,7 @@ function UpdateSelectedPlacesBox(placeIndex) {
     const placeNumberDiv = document.getElementById('placeNumber');
 
     if (placeIndex.length > 0) {
-        const selectedPlaceNumbers = placeIndex.map(index => places[index].getAttribute('date-place-id')).join(', ');
+        const selectedPlaceNumbers = placeIndex.map(index => places[index].getAttribute('id')).join(', ');
         placeNumberDiv.textContent = selectedPlaceNumbers;
     } else {
         placeNumberDiv.textContent = 'nothing selected';
@@ -25,7 +25,7 @@ function UpdateSelectedPlacesBox(placeIndex) {
 function UpdatePlaceIDs() {
     places.forEach((place, index) => {
         const placeIdSpan = place.querySelector('span');
-        placeIdSpan.textContent = place.getAttribute('date-place-id');
+        placeIdSpan.textContent = place.getAttribute('id');
     });
 }
 
@@ -68,41 +68,3 @@ function showTextBar() {
         autreVilleInput.removeAttribute('required');
     }
 }
-
-// Function to send form data to the external form
-function sendFormDataToExternalForm() {
-    const prenom = document.getElementById('prenom').value;
-    const nom = document.getElementById('nom').value;
-    const adresse = document.getElementById('adresse').value;
-    const telephone = document.getElementById('telephone').value;
-    const codePostal = document.getElementById('codePostal').value;
-    const ville = document.querySelector('input[name="ville"]:checked').value;
-    const autreVille = autreVilleInput.value;
-
-    const formData = new FormData();
-    formData.append('entry.1', prenom);
-    formData.append('entry.2', nom);
-    formData.append('entry.3', adresse);
-    formData.append('entry.4', telephone);
-    formData.append('entry.5', codePostal);
-    formData.append('entry.6', ville === 'Autre' ? autreVille : ville);
-
-    fetch('https://framaforms.org/vide-grenier-de-vert-saint-denis-24-septembre-2023-1687503051', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => {
-        // Handle the response from the external form, if needed
-        console.log('Form data submitted successfully');
-    })
-    .catch(error => {
-        // Handle any errors that occurred during form submission
-        console.error('Error submitting form data:', error);
-    });
-}
-
-// Event listener for clicking on the "Valider" button
-const validerButton = document.querySelector('.adress button');
-validerButton.addEventListener('click', () => {
-    sendFormDataToExternalForm();
-});

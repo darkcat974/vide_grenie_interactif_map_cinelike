@@ -1,99 +1,629 @@
-.place.un {
-    top: 71vh;
+.place[id='425'] {
+    top: 90vh;
     left: 40vh;
 }
 
-.place.deux {
-    top: 75vh;
-    left: 41vh;
+.place[id='426'] {
+    top: 87vh;
+    left: 39.5vh;
 }
 
-.place.trois {
-    top: 80vh;
-    left: 42vh;
+.place[id='427'] {
+    top: 84vh;
+    left: 39vh;
 }
 
-.place.quatre {
-    top: 85vh;
-    left: 43vh;
+.place[id='428'] {
+    top: 81vh;
+    left: 38.5vh;
 }
 
-.place.cinq {
-    top: 70vh;
+.place[id='429'] {
+    top: 78vh;
+    left: 38vh;
+}
+
+.place[id='430'] {
+    top: 76vh;
     left: 45vh;
 }
 
-.place.six {
-    top: 69vh;
+.place[id='431'] {
+    top: 77vh;
+    left: 46vh;
+}
+
+.place[id='432'] {
+    top: 78vh;
+    left: 47vh;
+}
+
+.place[id='433'] {
+    top: 79vh;
+    left: 48vh;
+}
+
+.place[id='434'] {
+    top: 80vh;
+    left: 49vh;
+}
+
+.place[id='435'] {
+    top: 81vh;
     left: 50vh;
 }
 
-.place.sept {
-    top: 68vh;
+.place[id='436'] {
+    top: 82vh;
+    left: 51vh;
+}
+
+.place[id='437'] {
+    top: 83vh;
+    left: 52vh;
+}
+
+.place[id='438'] {
+    top: 84vh;
+    left: 53vh;
+}
+
+.place[id='439'] {
+    top: 85vh;
+    left: 54vh;
+}
+
+.place[id='440'] {
+    top: 86vh;
     left: 55vh;
 }
 
-.place.huit {
-    top: 67vh;
+.place[id='441'] {
+    top: 87vh;
+    left: 56vh;
+}
+
+.place[id='442'] {
+    top: 88vh;
+    left: 57vh;
+}
+
+.place[id='443'] {
+    top: 89vh;
+    left: 58vh;
+}
+
+.place[id='444'] {
+    top: 90vh;
+    left: 59vh;
+}
+
+.place[id='445'] {
+    top: 91vh;
     left: 60vh;
 }
 
-.place.neuf {
-    top: 66vh;
+.place[id='446'] {
+    top: 92vh;
+    left: 61vh;
+}
+
+.place[id='447'] {
+    top: 93vh;
+    left: 62vh;
+}
+
+.place[id='448'] {
+    top: 94vh;
+    left: 63vh;
+}
+
+.place[id='449'] {
+    top: 95vh;
+    left: 64vh;
+}
+
+.place[id='450'] {
+    top: 96vh;
     left: 65vh;
 }
 
-.place.dix {
-    top: 65vh;
+.place[id='451'] {
+    top: 97vh;
+    left: 66vh;
+}
+
+.place[id='452'] {
+    top: 98vh;
+    left: 67vh;
+}
+
+.place[id='453'] {
+    top: 99vh;
+    left: 68vh;
+}
+
+.place[id='454'] {
+    top: 100vh;
+    left: 69vh;
+}
+
+.place[id='455'] {
+    top: 101vh;
     left: 70vh;
 }
 
-.place.onze {
-    top: 64vh;
+.place[id='456'] {
+    top: 102vh;
+    left: 71vh;
+}
+
+.place[id='457'] {
+    top: 103vh;
+    left: 72vh;
+}
+
+.place[id='458'] {
+    top: 104vh;
+    left: 73vh;
+}
+
+.place[id='459'] {
+    top: 105vh;
+    left: 74vh;
+}
+
+.place[id='460'] {
+    top: 106vh;
     left: 75vh;
 }
 
-.place.douze {
-    top: 63vh;
+.place[id='461'] {
+    top: 107vh;
+    left: 76vh;
+}
+
+.place[id='462'] {
+    top: 108vh;
+    left: 77vh;
+}
+
+.place[id='463'] {
+    top: 109vh;
+    left: 78vh;
+}
+
+.place[id='464'] {
+    top: 110vh;
+    left: 79vh;
+}
+
+.place[id='465'] {
+    top: 111vh;
     left: 80vh;
 }
 
-.place.treize {
-    top: 62vh;
-    left: 85vh;
-}
-
-.place.quatorze {
-    top: 61vh;
-    left: 90vh;
-}
-
-.place.quinze {
-    top: 60vh;
-    left: 95vh;
-}
-
-.place.seize {
-    top: 67vh;
+.place[id='466'] {
+    top: 112vh;
     left: 81vh;
 }
 
-.place.dix-sept {
-    top: 70vh;
+.place[id='467'] {
+    top: 113vh;
     left: 82vh;
 }
 
-.place.dix-huit {
-    top: 74vh;
+.place[id='468'] {
+    top: 114vh;
     left: 83vh;
 }
 
-.place.dix-neuf {
-    top: 78vh;
+.place[id='469'] {
+    top: 115vh;
     left: 84vh;
 }
 
-.place.vingt {
-    top: 59vh;
+.place[id='470'] {
+    top: 116vh;
+    left: 85vh;
+}
+
+.place[id='471'] {
+    top: 117vh;
+    left: 86vh;
+}
+
+.place[id='472'] {
+    top: 118vh;
+    left: 87vh;
+}
+
+.place[id='473'] {
+    top: 119vh;
+    left: 88vh;
+}
+
+.place[id='474'] {
+    top: 120vh;
+    left: 89vh;
+}
+
+.place[id='475'] {
+    top: 121vh;
+    left: 90vh;
+}
+
+.place[id='476'] {
+    top: 122vh;
+    left: 91vh;
+}
+
+.place[id='477'] {
+    top: 123vh;
+    left: 92vh;
+}
+
+.place[id='478'] {
+    top: 124vh;
+    left: 93vh;
+}
+
+.place[id='479'] {
+    top: 125vh;
+    left: 94vh;
+}
+
+.place[id='480'] {
+    top: 126vh;
+    left: 95vh;
+}
+
+.place[id='481'] {
+    top: 127vh;
+    left: 96vh;
+}
+
+.place[id='482'] {
+    top: 128vh;
+    left: 97vh;
+}
+
+.place[id='483'] {
+    top: 129vh;
+    left: 98vh;
+}
+
+.place[id='484'] {
+    top: 130vh;
+    left: 99vh;
+}
+
+.place[id='485'] {
+    top: 131vh;
     left: 100vh;
+}
+
+.place[id='486'] {
+    top: 132vh;
+    left: 101vh;
+}
+
+.place[id='487'] {
+    top: 133vh;
+    left: 102vh;
+}
+
+.place[id='488'] {
+    top: 134vh;
+    left: 103vh;
+}
+
+.place[id='489'] {
+    top: 135vh;
+    left: 104vh;
+}
+
+.place[id='490'] {
+    top: 136vh;
+    left: 105vh;
+}
+
+.place[id='491'] {
+    top: 137vh;
+    left: 106vh;
+}
+
+.place[id='492'] {
+    top: 138vh;
+    left: 107vh;
+}
+
+.place[id='493'] {
+    top: 139vh;
+    left: 108vh;
+}
+
+.place[id='494'] {
+    top: 140vh;
+    left: 109vh;
+}
+
+.place[id='495'] {
+    top: 141vh;
+    left: 110vh;
+}
+
+.place[id='496'] {
+    top: 142vh;
+    left: 111vh;
+}
+
+.place[id='497'] {
+    top: 143vh;
+    left: 112vh;
+}
+
+.place[id='498'] {
+    top: 144vh;
+    left: 113vh;
+}
+
+.place[id='499'] {
+    top: 145vh;
+    left: 114vh;
+}
+
+.place[id='500'] {
+    top: 146vh;
+    left: 115vh;
+}
+
+.place[id='501'] {
+    top: 147vh;
+    left: 116vh;
+}
+
+.place[id='502'] {
+    top: 148vh;
+    left: 117vh;
+}
+
+.place[id='503'] {
+    top: 149vh;
+    left: 118vh;
+}
+
+.place[id='504'] {
+    top: 150vh;
+    left: 119vh;
+}
+
+.place[id='505'] {
+    top: 151vh;
+    left: 120vh;
+}
+
+.place[id='506'] {
+    top: 152vh;
+    left: 121vh;
+}
+
+.place[id='507'] {
+    top: 153vh;
+    left: 122vh;
+}
+
+.place[id='508'] {
+    top: 154vh;
+    left: 123vh;
+}
+
+.place[id='509'] {
+    top: 155vh;
+    left: 124vh;
+}
+
+.place[id='510'] {
+    top: 156vh;
+    left: 125vh;
+}
+
+.place[id='511'] {
+    top: 157vh;
+    left: 126vh;
+}
+
+.place[id='512'] {
+    top: 158vh;
+    left: 127vh;
+}
+
+.place[id='513'] {
+    top: 159vh;
+    left: 128vh;
+}
+
+.place[id='514'] {
+    top: 160vh;
+    left: 129vh;
+}
+
+.place[id='515'] {
+    top: 161vh;
+    left: 130vh;
+}
+
+.place[id='516'] {
+    top: 162vh;
+    left: 131vh;
+}
+
+.place[id='517'] {
+    top: 163vh;
+    left: 132vh;
+}
+
+.place[id='518'] {
+    top: 164vh;
+    left: 133vh;
+}
+
+.place[id='519'] {
+    top: 165vh;
+    left: 134vh;
+}
+
+.place[id='520'] {
+    top: 166vh;
+    left: 135vh;
+}
+
+.place[id='521'] {
+    top: 167vh;
+    left: 136vh;
+}
+
+.place[id='522'] {
+    top: 168vh;
+    left: 137vh;
+}
+
+.place[id='523'] {
+    top: 169vh;
+    left: 138vh;
+}
+
+.place[id='524'] {
+    top: 170vh;
+    left: 139vh;
+}
+
+.place[id='525'] {
+    top: 171vh;
+    left: 140vh;
+}
+
+.place[id='526'] {
+    top: 172vh;
+    left: 141vh;
+}
+
+.place[id='527'] {
+    top: 173vh;
+    left: 142vh;
+}
+
+.place[id='528'] {
+    top: 174vh;
+    left: 143vh;
+}
+
+.place[id='529'] {
+    top: 175vh;
+    left: 144vh;
+}
+
+.place[id='530'] {
+    top: 176vh;
+    left: 145vh;
+}
+
+.place[id='531'] {
+    top: 177vh;
+    left: 146vh;
+}
+
+.place[id='532'] {
+    top: 178vh;
+    left: 147vh;
+}
+
+.place[id='533'] {
+    top: 179vh;
+    left: 148vh;
+}
+
+.place[id='534'] {
+    top: 180vh;
+    left: 149vh;
+}
+
+.place[id='535'] {
+    top: 181vh;
+    left: 150vh;
+}
+
+.place[id='536'] {
+    top: 182vh;
+    left: 151vh;
+}
+
+.place[id='537'] {
+    top: 183vh;
+    left: 152vh;
+}
+
+.place[id='538'] {
+    top: 184vh;
+    left: 153vh;
+}
+
+.place[id='539'] {
+    top: 185vh;
+    left: 154vh;
+}
+
+.place[id='540'] {
+    top: 186vh;
+    left: 155vh;
+}
+
+.place[id='541'] {
+    top: 187vh;
+    left: 156vh;
+}
+
+.place[id='542'] {
+    top: 188vh;
+    left: 157vh;
+}
+
+.place[id='543'] {
+    top: 189vh;
+    left: 158vh;
+}
+
+.place[id='544'] {
+    top: 190vh;
+    left: 159vh;
+}
+
+.place[id='545'] {
+    top: 191vh;
+    left: 160vh;
+}
+
+.place[id='546'] {
+    top: 192vh;
+    left: 161vh;
+}
+
+.place[id='547'] {
+    top: 193vh;
+    left: 162vh;
+}
+
+.place[id='548'] {
+    top: 194vh;
+    left: 163vh;
+}
+
+.place[id='549'] {
+    top: 195vh;
+    left: 164vh;
+}
+
+.place[id='550'] {
+    top: 196vh;
+    left: 165vh;
 }
