@@ -524,100 +524,201 @@
 
 /*_________________________place side_____________________________*/
 .place[id='1'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 88vh;
+    left: 174vh;
 }.place[id='2'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 86vh;
+    left: 174vh;
 }.place[id='3'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 84vh;
+    left: 173.5vh;
 }.place[id='4'] {
     top: 82vh;
-    left: 94.5vh;
+    left: 173.2vh;
 }.place[id='5'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 80vh;
+    left: 173vh;
 }.place[id='6'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 78vh;
+    left: 172.8vh;
 }.place[id='7'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 76vh;
+    left: 172.5vh;
 }.place[id='8'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 74vh;
+    left: 172.3vh;
 }.place[id='9'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 72vh;
+    left: 172vh;
 }.place[id='10'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 70vh;
+    left: 172vh;
 }.place[id='11'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 68vh;
+    left: 172vh;
 }.place[id='12'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 66vh;
+    left: 172vh;
 }.place[id='13'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 64vh;
+    left: 172vh;
 }.place[id='14'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 62vh;
+    left: 172vh;
 }.place[id='15'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 60vh;
+    left: 172vh;
 }.place[id='16'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 58vh;
+    left: 173vh;
 }.place[id='17'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 56vh;
+    left: 174vh;
 }.place[id='18'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 54vh;
+    left: 174.5vh;
 }.place[id='19'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 52vh;
+    left: 175vh;
 }.place[id='20'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 50vh;
+    left: 176vh;
 }.place[id='21'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 48vh;
+    left: 177vh;
 }.place[id='22'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 46vh;
+    left: 178vh;
 }.place[id='23'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 44vh;
+    left: 178vh;
 }.place[id='24'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 42vh;
+    left: 179vh;
 }.place[id='25'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 40vh;
+    left: 180vh;
 }.place[id='26'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 38vh;
+    left: 181vh;
 }.place[id='27'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 36vh;
+    left: 182vh;
 }.place[id='28'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 34vh;
+    left: 183vh;
 }.place[id='29'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 32vh;
+    left: 184vh;
 }.place[id='30'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 30vh;
+    left: 185vh;
 }.place[id='31'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 28vh;
+    left: 186vh;
 }.place[id='32'] {
-    top: 82vh;
-    left: 94.5vh;
+    top: 26vh;
+    left: 187vh;
 }
 /*_________________________road_____________________________*/
+.place[id='292'] {
+    top: 94vh;
+    left: 166vh;
+}.place[id='291'] {
+    top: 92vh;
+    left: 167vh;
+}.place[id='290'] {
+    top: 90vh;
+    left: 168vh;
+}.place[id='289'] {
+    top: 88vh;
+    left: 167.5vh;
+}.place[id='288'] {
+    top: 86vh;
+    left: 167.2vh;
+}.place[id='287'] {
+    top: 84vh;
+    left: 167vh;
+}.place[id='286'] {
+    top: 82vh;
+    left: 166.8vh;
+}.place[id='285'] {
+    top: 80vh;
+    left: 166.5vh;
+}.place[id='284'] {
+    top: 78vh;
+    left: 166.3vh;
+}.place[id='283'] {
+    top: 76vh;
+    left: 166vh;
+}.place[id='282'] {
+    top: 74vh;
+    left: 166vh;
+}.place[id='281'] {
+    top: 72vh;
+    left: 166vh;
+}.place[id='280'] {
+    top: 70vh;
+    left: 166vh;
+}.place[id='279'] {
+    top: 68vh;
+    left: 166vh;
+}.place[id='278'] {
+    top: 66vh;
+    left: 166vh;
+}.place[id='277'] {
+    top: 64vh;
+    left: 166vh;
+}.place[id='276'] {
+    top: 62vh;
+    left: 166vh;
+}.place[id='275'] {
+    top: 60vh;
+    left: 166vh;
+}.place[id='274'] {
+    top: 58vh;
+    left: 166.5vh;
+}.place[id='273'] {
+    top: 56.2vh;
+    left: 167vh;
+}.place[id='272'] {
+    top: 54.5vh;
+    left: 166vh;
+}.place[id='271'] {
+    top: 53vh;
+    left: 165vh;
+}.place[id='270'] {
+    top: 51vh;
+    left: 165vh;
+}.place[id='269'] {
+    top: 49vh;
+    left: 165vh;
+}.place[id='268'] {
+    top: 47.5vh;
+    left: 166vh;
+}.place[id='267'] {
+    top: 46vh;
+    left: 167vh;
+}.place[id='266'] {
+    top: 44.5vh;
+    left: 167vh;
+}.place[id='265'] {
+    top: 43vh;
+    left: 168vh;
+}.place[id='264'] {
+    top: 41vh;
+    left: 168.5vh;
+}.place[id='263'] {
+    top: 39vh;
+    left: 168.5vh;
+}.place[id='262'] {
+    top: 37vh;
+    left: 168vh;
+}.place[id='261'] {
+    top: 35.5vh;
+    left: 167vh;
+}.place[id='260'] {
+    top: 34vh;
+    left: 166vh;
+}
+/*_________________________road left_____________________________*/
