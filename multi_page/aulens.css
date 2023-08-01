@@ -86,8 +86,8 @@ small {
 .place {
     position: fixed;
     background-color: #0004f7;
-    height: 2.5vh;
-    width: 2.5vh;
+    height: 2vh;
+    width: 2vh;
     border-radius: 2.0vh;
 }
 
@@ -103,14 +103,15 @@ small {
 
 .place:not(.occupied):hover {
     cursor: pointer;
-    transform: scale(1.2);
+    transform: scale(2);
 }
 
 .place span {
     position: fixed;
-    margin: 0.5vh;
     pointer-events: none; /* Add this line to disable pointer events on the number spans */
     color: #7a7a7a;
+    scale: 0.6;
+    margin-left: -0.3vh;
 }
 
 .adress {
