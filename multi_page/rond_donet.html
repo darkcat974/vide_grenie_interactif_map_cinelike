@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="rond_dionet.css"/>
 </head>
 <body>
-    <div class="menu">
-        <a href="index.html">
+    <div class="menu" id="menu">
+        <a href="index.html">           
             <div class="button home">
                 <small>menu</small>
             </div>
         </a>
-        <div class="place">
+        <div class="showcase">
             <div class="button"></div>
             <small>libre</small>
             <div class="button selected"></div>
@@ -33,9 +33,20 @@
         </a>
         <a href="aulens.html">
             <div class="button home">
-                <small>Côté_aulens</small>
+                <small>Place_aulens</small>
             </div>
         </a>
+        </a>
+    </div>
+    <div class="adress">
+        <form id="registrationForm">
+            <div class="text">place selected :</div>
+            <br>
+            <div class="place-number" id="placeNumber" style="margin: 5%">nothing selected</div>
+            <a href="https://framaforms.org/vide-grenier-de-vert-saint-denis-24-septembre-2023-1687503051" target="_blank">
+                <button type="button" id="submitForm" style="position: fixed; top: 76%; left: 91%; scale: 1.25;">Valider</button>
+            </a>
+        </form>
     </div>
     <script src="script.js"></script>
 </body>

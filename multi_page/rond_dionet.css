@@ -16,6 +16,7 @@ body {
     width: 200px;
     height: 100px;
     border-radius: 5%;
+    position: relative;
 }
 
 .button {
@@ -31,12 +32,12 @@ small {
     width: 100%;
 }
 
-.place {
+.showcase {
     background-color: rgb(255, 255, 255);
     display: flex;
 }
 
-.place small {
+.showcase small {
     margin: auto;
 }
 
@@ -50,14 +51,80 @@ small {
     transform: scale(1);
 }
 
-.occupied {
+.button.occupied {
     width: 50px;
     background-color: red;
-    margin-left: -15%;
+    margin-left: -5%;
 }
 
-.selected {
+.button.selected {
     width: 50px;
     background-color: rgb(0, 255, 0);
     margin-left: -15%;
+}
+
+.parc {
+    position: fixed;
+    height: 30vh;
+    width: 120vh;
+    top: 60vh;
+    left: 36vh;
+    transform: rotate(-7deg);
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.rue {
+    position: fixed;
+    height: 110vh;
+    width: 10vh;
+    top: -10vh;
+    left: 170vh;
+    transform: rotate(14deg);
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.place {
+    position: fixed;
+    background-color: #0004f7;
+    height: 2vh;
+    width: 2vh;
+    border-radius: 2.0vh;
+}
+
+/* add a color to selected places */
+.place.selected {
+    background-color: #00ff0d;
+}
+
+/* add a color to occupied places */
+.place.occupied {
+    background-color: #ff0000;
+}
+
+.place:not(.occupied):hover {
+    cursor: pointer;
+    transform: scale(2);
+}
+
+.place span {
+    position: fixed;
+    pointer-events: none; /* Add this line to disable pointer events on the number spans */
+    color: #7a7a7a;
+    scale: 0.6;
+    margin-left: -0.3vh;
+}
+
+.adress {
+    position: fixed;
+    background-color: aqua;
+    width: 22vh;
+    height: 20vh;
+    top: 60vh;
+    left: 180vh;
+    border-radius: 1vh;
+}
+
+.text {
+    position: fixed;
+    margin-left: 1vh;
 }
