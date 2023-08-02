@@ -617,8 +617,32 @@
     top: 28vh;
     left: 186vh;
 }.place[id='32'] {
-    top: 26vh;
+    top: 26.5vh;
+    left: 186vh;
+}.place[id='33'] {
+    top: 25vh;
+    left: 186vh;
+}.place[id='34'] {
+    top: 23.5vh;
+    left: 186.5vh;
+}.place[id='35'] {
+    top: 22vh;
     left: 187vh;
+}.place[id='36'] {
+    top: 20.5vh;
+    left: 187vh;
+}.place[id='37'] {
+    top: 19vh;
+    left: 188vh;
+}.place[id='38'] {
+    top: 17.5vh;
+    left: 188.5vh;
+}.place[id='39'] {
+    top: 16vh;
+    left: 189vh;
+}.place[id='40'] {
+    top: 14.5vh;
+    left: 190vh;
 }
 /*_________________________road_____________________________*/
 .place[id='292'] {
@@ -720,5 +744,35 @@
 }.place[id='260'] {
     top: 34vh;
     left: 166vh;
+}.place[id='259'] {
+    top: 26vh;
+    left: 175vh;
+}.place[id='258'] {
+    top: 24.5vh;
+    left: 176vh;
+}.place[id='257'] {
+    top: 23vh;
+    left: 177vh;
+}.place[id='256'] {
+    top: 21.5vh;
+    left: 177.5vh;
+}.place[id='255'] {
+    top: 20vh;
+    left: 178vh;
+}.place[id='254'] {
+    top: 18.5vh;
+    left: 178.5vh;
+}.place[id='253'] {
+    top: 17vh;
+    left: 179vh;
+}.place[id='252'] {
+    top: 15.5vh;
+    left: 179.5vh;
+}.place[id='251'] {
+    top: 14vh;
+    left: 180vh;
+}.place[id='250'] {
+    top: 12.5vh;
+    left: 180.5vh;
 }
 /*_________________________road left_____________________________*/
