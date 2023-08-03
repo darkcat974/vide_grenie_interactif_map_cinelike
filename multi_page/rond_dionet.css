@@ -12,7 +12,7 @@ body {
 }
 
 .menu {
-    background-color: rgb(24, 218, 201);
+    background-color: rgb(65, 65, 65);
     width: 200px;
     height: 100px;
     border-radius: 5%;
@@ -20,20 +20,26 @@ body {
 }
 
 .button {
-        background-color: #7a7a7a;
+        background-color: #ffffff;
         height: 15px;
         width: 50px;
         margin: 3px;
         border-radius: 50%;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
 small {
     margin: 100%;
     width: 100%;
+    color: #ffffff;
 }
 
 .showcase {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     display: flex;
 }
 
@@ -85,7 +91,7 @@ small {
 
 .place {
     position: fixed;
-    background-color: #0004f7;
+    background-color: #000000;
     height: 2vh;
     width: 2vh;
     border-radius: 2.0vh;
@@ -109,14 +115,14 @@ small {
 .place span {
     position: fixed;
     pointer-events: none; /* Add this line to disable pointer events on the number spans */
-    color: #7a7a7a;
+    color: #ffffff;
     scale: 0.6;
     margin-left: -0.3vh;
 }
 
 .adress {
     position: fixed;
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     width: 22vh;
     height: 20vh;
     top: 60vh;
@@ -127,4 +133,5 @@ small {
 .text {
     position: fixed;
     margin-left: 1vh;
+    color: aliceblue;
 }
