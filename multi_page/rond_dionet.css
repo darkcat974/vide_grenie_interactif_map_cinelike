@@ -12,7 +12,7 @@ body {
 }
 
 .menu {
-    background-color: rgb(65, 65, 65);
+    background-color: rgb(51, 51, 51);
     width: 200px;
     height: 100px;
     border-radius: 5%;
@@ -20,7 +20,7 @@ body {
 }
 
 .button {
-        background-color: #ffffff;
+        background-color: #7a7a7a;
         height: 15px;
         width: 50px;
         margin: 3px;
@@ -28,18 +28,26 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
+}
+
+a:hover {
+    font-size: 20px;
 }
 
 small {
     margin: 100%;
     width: 100%;
-    color: #ffffff;
+    color: white;
+}
+
+.text_menu {
+    margin: 70px;
 }
 
 .showcase {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(28, 68, 156);
     display: flex;
 }
 
@@ -91,7 +99,7 @@ small {
 
 .place {
     position: fixed;
-    background-color: #000000;
+    background-color: #0004f7;
     height: 2vh;
     width: 2vh;
     border-radius: 2.0vh;
@@ -115,14 +123,14 @@ small {
 .place span {
     position: fixed;
     pointer-events: none; /* Add this line to disable pointer events on the number spans */
-    color: #ffffff;
+    color: white;
     scale: 0.6;
     margin-left: -0.3vh;
 }
 
 .adress {
     position: fixed;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(51, 51, 51);
     width: 22vh;
     height: 20vh;
     top: 60vh;
@@ -135,3 +143,5 @@ small {
     margin-left: 1vh;
     color: aliceblue;
 }
+
+

@@ -12,7 +12,7 @@ body {
 }
 
 .menu {
-    background-color: rgb(24, 218, 201);
+    background-color: rgb(51, 51, 51);
     width: 200px;
     height: 100px;
     border-radius: 5%;
@@ -27,13 +27,27 @@ body {
         border-radius: 50%;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 20px;
+}
+
 small {
     margin: 100%;
     width: 100%;
+    color: white;
+}
+
+.text_menu {
+    margin: 70px;
 }
 
 .showcase {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(28, 68, 156);
     display: flex;
 }
 
@@ -109,14 +123,14 @@ small {
 .place span {
     position: fixed;
     pointer-events: none; /* Add this line to disable pointer events on the number spans */
-    color: #7a7a7a;
+    color: white;
     scale: 0.6;
     margin-left: -0.3vh;
 }
 
 .adress {
     position: fixed;
-    background-color: aqua;
+    background-color: rgb(51, 51, 51);
     width: 22vh;
     height: 20vh;
     top: 60vh;
@@ -127,6 +141,7 @@ small {
 .text {
     position: fixed;
     margin-left: 1vh;
+    color: aliceblue;
 }
 
 
