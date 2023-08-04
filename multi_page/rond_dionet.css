@@ -99,7 +99,7 @@ small {
 
 .place {
     position: fixed;
-    background-color: #0004f7;
+    background-color: #0003af;
     height: 2vh;
     width: 2vh;
     border-radius: 2.0vh;
@@ -143,5 +143,3 @@ small {
     margin-left: 1vh;
     color: aliceblue;
 }
-
-
