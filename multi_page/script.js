@@ -1,7 +1,7 @@
 // JavaScript code with changes
 // get all info from the html actions
 const container = document.querySelector('.container');
-const places = document.querySelectorAll('.row .place:not(.occupied)');
+const places = document.querySelectorAll('.row .place');
 const autreRadio = document.getElementById('Autre');
 const autreVilleDiv = document.getElementById('autreVille');
 const autreVilleInput = document.getElementById('autreVilleInput');
@@ -17,7 +17,7 @@ function UpdateSelectedPlacesBox(placeIndex) {
         const selectedPlaceNumbers = placeIndex.map(index => places[index].getAttribute('id')).join(', ');
         placeNumberDiv.textContent = selectedPlaceNumbers;
     } else {
-        placeNumberDiv.textContent = 'nothing selected';
+        placeNumberDiv.textContent = 'aucune';
     }
 }
 
@@ -29,42 +29,22 @@ function UpdatePlaceIDs() {
     });
 }
 
-// Call the function to initialize the place IDs
-UpdatePlaceIDs();
 
 // Event listener for clicking on a place
 container.addEventListener('click', (e) => {
     if (e.target.classList.contains('place') && !e.target.classList.contains('occupied')) {
         e.target.classList.toggle('selected');
-
+        
         // Get the updated list of selected places after the click event
         const SelectedPlaces = document.querySelectorAll('.row .place.selected');
         const placeIndex = [...SelectedPlaces].map(function (place){
             return [...places].indexOf(place);
         });
-
+        
         // Update the content of the "address" box with the selected place numbers
         UpdateSelectedPlacesBox(placeIndex);
     }
 });
 
-// Event listener for clicking on the "Autre" radio button
-autreRadio.addEventListener('click', () => {
-    if (autreRadio.checked) {
-        autreVilleDiv.style.display = 'block';
-        autreVilleInput.setAttribute('required', 'required');
-    } else {
-        autreVilleDiv.style.display = 'none';
-        autreVilleInput.removeAttribute('required');
-    }
-});
-
-function showTextBar() {
-    if (autreRadio.checked) {
-        autreVilleDiv.style.display = 'block';
-        autreVilleInput.setAttribute('required', 'required');
-    } else {
-        autreVilleDiv.style.display = 'none';
-        autreVilleInput.removeAttribute('required');
-    }
-}
+// Call the function to initialize the place IDs
+UpdatePlaceIDs();
